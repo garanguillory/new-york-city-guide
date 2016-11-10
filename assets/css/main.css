@@ -1,3 +1,6 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
 ul {
   list-style: none;
   padding-left: 0em; }
@@ -12,24 +15,44 @@ ul {
   height: 100vh; }
 
 .transportation-categories {
-  background: grey;
+  background: white;
+  border-bottom: 1px solid lightgrey;
   height: 100vh; }
   .transportation-categories .categories {
     text-align: center; }
     .transportation-categories .categories li {
       display: inline-block; }
       .transportation-categories .categories li div {
-        border: 1px solid red;
+        border: 2px solid lightgrey;
         border-radius: 4px;
         height: 150px;
+        position: relative;
         width: 150px; }
+        .transportation-categories .categories li div img {
+          margin: 25% auto;
+          max-height: 100px;
+          max-width: 100px; }
 
 .airports {
-  background: #9a9a9a;
-  height: 100vh; }
+  background: white;
+  border-bottom: 1px solid lightgrey; }
+  .airports .airports-header {
+    margin-bottom: 4em;
+    margin-top: 12em; }
+    .airports .airports-header img {
+      max-height: 100px;
+      max-width: 100px;
+      margin: 0 auto; }
+    .airports .airports-header h1 {
+      text-align: center;
+      margin: 0 auto; }
+  .airports .figure {
+    background: white; }
+  .airports .img-container {
+    background: white; }
 
 .cabs {
-  background: silver;
+  background: white;
   height: 100vh; }
 
 .subways {
