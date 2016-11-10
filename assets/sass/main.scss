@@ -22,7 +22,7 @@ ul {
 	background-image: url("../images/bg-nyc.png");
 	background-position: center;
 	color: white;
-	height: 100%;
+	height: 100vh;
 	position: relative;
 
 	.title {
@@ -45,6 +45,34 @@ ul {
 	background: white;
 	border-bottom: 1px solid lightgrey;
 	height: 100vh;
+
+	.internal-navbar {
+		// border-bottom: 1px solid lightgrey;
+		margin-left: 4em;
+		margin-top: 0.5em;
+
+		ul {
+
+			li {
+				display: inline-block;
+				padding-right: 1em;
+
+				.more-to-come {
+					font-weight: bold;
+					height: 10px;
+					margin-left: 1em;
+					width: 10px;
+				}
+
+				&:last-child {
+					border-bottom: 2px solid rgb(21,175,233);
+					.more-to-come {
+						display: none;
+					}
+				}
+			}
+		}
+	}
 
 	.categories-heading {
 		margin-top: 6em;
@@ -96,9 +124,9 @@ ul {
 	padding-bottom: 2em;
 
 	.airports-header {
-		// text-align: center;
 		margin-bottom: 6em;
 		margin-top: 12em;
+		position: relative;
 
 		img {
 			max-height: 100px;
@@ -106,9 +134,18 @@ ul {
 			margin: 0 auto;
 		}
 		h1 {
-			// max-width: 150px;
 			text-align: center;
 			margin: 0 auto; 
+
+			&:after {
+			 background: rgb(21,175,233); 
+			 bottom: -0.5em;
+			 content:''; 
+ 			 height: 4px; 
+			 position: absolute; 
+			 left: 48%;
+			 width: 1em; 
+			}
 		}
 	}
 
@@ -143,9 +180,18 @@ ul {
 			margin: 0 auto;
 		}
 		h1 {
-			// max-width: 150px;
 			text-align: center;
 			margin: 0 auto; 
+
+			&:after {
+			 background: rgb(21,175,233); 
+			 bottom: -0.5em;
+			 content:''; 
+ 			 height: 4px; 
+			 position: absolute; 
+			 left: 48%;
+			 width: 1em; 
+			}
 		}
 	}
 
@@ -158,9 +204,9 @@ ul {
 	padding-bottom: 6em;
 
 	.subways-header {
-		// text-align: center;
 		margin-bottom: 6em;
 		margin-top: 12em;
+		position: relative;
 
 		img {
 			max-height: 50px;
@@ -168,9 +214,18 @@ ul {
 			margin: 0 auto;
 		}
 		h1 {
-			// max-width: 150px;
 			text-align: center;
 			margin: 0 auto; 
+
+			&:after {
+			 background: rgb(21,175,233); 
+			 bottom: -0.5em;
+			 content:''; 
+ 			 height: 4px; 
+			 position: absolute; 
+			 left: 48%;
+			 width: 1em; 
+			}
 		}
 	}
 
@@ -195,8 +250,19 @@ ul {
 
 footer {
 	background: white;
-	padding-bottom: 4em;
-	padding-top: 4em;
+	padding: 6em 0;
+	// padding-bottom: 6em;
+	// padding-top: 6em;
+
+	.zebra-disclaimer {
+		li {
+			padding: 1em 0;
+
+			&:first-child {
+				padding-bottom: 4em;
+			}
+		}
+	}
 }
 
 
