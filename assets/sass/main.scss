@@ -17,7 +17,23 @@ ul {
 	background: grey;
 	background-image: url("../images/bg-nyc.png");
 	background-position: center;
+	color: white;
 	height: 100vh;
+	position: relative;
+
+	.title {
+		font-size: 5em;
+		font-weight: 900;
+		margin-top: 2em;
+	}
+
+	.logo {
+		height: 26px;
+		left: 0em;
+		position: absolute;
+		top: 2em;
+		width: 120px;
+	}
 }
 
 
@@ -63,7 +79,7 @@ ul {
 
 	.airports-header {
 		// text-align: center;
-		margin-bottom: 4em;
+		margin-bottom: 6em;
 		margin-top: 12em;
 
 		img {
@@ -100,7 +116,7 @@ ul {
 
 	.cabs-header {
 		// text-align: center;
-		margin-bottom: 4em;
+		margin-bottom: 6em;
 		margin-top: 12em;
 
 		img {
@@ -119,13 +135,50 @@ ul {
 
 
 .subways {
-	background: lighten(grey, 50%);
-	height: 100vh;
+	background: white;
+	border-bottom: 1px solid lightgrey;
+	padding-bottom: 6em;
+
+	.subways-header {
+		// text-align: center;
+		margin-bottom: 6em;
+		margin-top: 12em;
+
+		img {
+			max-height: 50px;
+			max-width: 50px;
+			margin: 0 auto;
+		}
+		h1 {
+			// max-width: 150px;
+			text-align: center;
+			margin: 0 auto; 
+		}
+	}
+
+	.figure {
+		background: white;
+	}
+
+	.img-container {
+		background: white;
+
+
+		img {
+
+		}
+	}
+
+	.how-to-ride-subway-header {
+		margin-top: 3em;
+		margin-bottom: 2em;
+	}
 }
 
 footer {
-	background: orange;
-	height: 50vh;
+	background: white;
+	padding-bottom: 4em;
+	padding-top: 4em;
 }
 
 
