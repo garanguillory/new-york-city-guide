@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+  padding-left: 0em; }
+
+.centered {
+  text-align: center; }
+
+.landing {
+  background: grey;
+  background-image: url("../images/bg-nyc.png");
+  background-position: center;
+  height: 100vh; }
+
+.transportation-categories {
+  background: grey;
+  height: 100vh; }
+  .transportation-categories .categories {
+    text-align: center; }
+    .transportation-categories .categories li {
+      display: inline-block; }
+      .transportation-categories .categories li div {
+        border: 1px solid red;
+        border-radius: 4px;
+        height: 150px;
+        width: 150px; }
+
+.airports {
+  background: #9a9a9a;
+  height: 100vh; }
+
+.cabs {
+  background: silver;
+  height: 100vh; }
+
+.subways {
+  background: white;
+  height: 100vh; }
+
+footer {
+  background: orange;
+  height: 50vh; }
