@@ -35,7 +35,8 @@ ul {
 
 .airports {
   background: white;
-  border-bottom: 1px solid lightgrey; }
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 2em; }
   .airports .airports-header {
     margin-bottom: 4em;
     margin-top: 12em; }
@@ -53,7 +54,18 @@ ul {
 
 .cabs {
   background: white;
-  height: 100vh; }
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 2em; }
+  .cabs .cabs-header {
+    margin-bottom: 4em;
+    margin-top: 12em; }
+    .cabs .cabs-header img {
+      max-height: 50px;
+      max-width: 50px;
+      margin: 0 auto; }
+    .cabs .cabs-header h1 {
+      text-align: center;
+      margin: 0 auto; }
 
 .subways {
   background: white;
