@@ -1,5 +1,4 @@
 body {
-	// color: white;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -47,7 +46,6 @@ ul {
 	height: 100vh;
 
 	.internal-navbar {
-		// border-bottom: 1px solid lightgrey;
 		margin-left: 4em;
 		margin-top: 0.5em;
 
@@ -155,11 +153,6 @@ ul {
 
 	.img-container {
 		background: white;
-
-
-		img {
-
-		}
 	}
 }
 
@@ -170,7 +163,6 @@ ul {
 	padding-bottom: 2em;
 
 	.cabs-header {
-		// text-align: center;
 		margin-bottom: 6em;
 		margin-top: 12em;
 
@@ -235,11 +227,6 @@ ul {
 
 	.img-container {
 		background: white;
-
-
-		img {
-
-		}
 	}
 
 	.how-to-ride-subway-header {
@@ -251,8 +238,6 @@ ul {
 footer {
 	background: white;
 	padding: 6em 0;
-	// padding-bottom: 6em;
-	// padding-top: 6em;
 
 	.zebra-disclaimer {
 		li {
@@ -266,7 +251,15 @@ footer {
 }
 
 
-
+@media only screen and (max-width : 480px) {
+	.landing {
+		.title {
+			margin-bottom: 1em;
+			margin-top: 4em;
+			font-size: 1.5em;
+		}
+	}
+}
 
 
 

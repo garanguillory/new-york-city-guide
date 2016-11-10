@@ -168,3 +168,9 @@ footer {
     padding: 1em 0; }
     footer .zebra-disclaimer li:first-child {
       padding-bottom: 4em; }
+
+@media only screen and (max-width: 480px) {
+  .landing .title {
+    margin-bottom: 1em;
+    margin-top: 4em;
+    font-size: 1.5em; } }
