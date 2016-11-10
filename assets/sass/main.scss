@@ -42,29 +42,44 @@ ul {
 	border-bottom: 1px solid lightgrey;
 	height: 100vh;
 
+	.categories-heading {
+		margin-top: 6em;
+	}
+
 	.categories {
 		text-align: center;
+		margin-bottom: 6em;
+		margin-top: 4em;
 
 		li {
 			display: inline-block;
+			padding-right: 1em;
 
 			div {
 				border: 2px solid lightgrey;
 				border-radius: 4px;
-				height: 150px;
+				height: 175px;
 				position: relative;
-				width: 150px;
+				width: 175px;
 
 				img {
-					// display: block;
 					margin: 25% auto;
-					// height: 100px;
-					// position: absolute;
-					// width: 100px;
-					// left: 25%;
-					max-height: 100px;
-					max-width: 100px;
-					// top: 25%;
+					// max-height: 100px;
+					// max-width: 100px;
+					height: 40%;
+					width: 40%;
+				}
+
+				span {
+					background: rgb(21,175,233);
+					border-radius: 20px;
+					bottom: -1em;
+					color: white;
+					left: 10%;
+					font-size: 1em;
+					padding: 0.25em;
+					position: absolute;
+					width: 80%;
 				}
 			}
 		}

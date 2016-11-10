@@ -30,20 +30,35 @@ ul {
   background: white;
   border-bottom: 1px solid lightgrey;
   height: 100vh; }
+  .transportation-categories .categories-heading {
+    margin-top: 6em; }
   .transportation-categories .categories {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 6em;
+    margin-top: 4em; }
     .transportation-categories .categories li {
-      display: inline-block; }
+      display: inline-block;
+      padding-right: 1em; }
       .transportation-categories .categories li div {
         border: 2px solid lightgrey;
         border-radius: 4px;
-        height: 150px;
+        height: 175px;
         position: relative;
-        width: 150px; }
+        width: 175px; }
         .transportation-categories .categories li div img {
           margin: 25% auto;
-          max-height: 100px;
-          max-width: 100px; }
+          height: 40%;
+          width: 40%; }
+        .transportation-categories .categories li div span {
+          background: #15afe9;
+          border-radius: 20px;
+          bottom: -1em;
+          color: white;
+          left: 10%;
+          font-size: 1em;
+          padding: 0.25em;
+          position: absolute;
+          width: 80%; }
 
 .airports {
   background: white;
